@@ -147,3 +147,24 @@ vite.config.ts.timestamp-*
 
 # Turbo Repo
 .turbo
+
+
+# Dependencies
+node_modules/
+
+# Hardhat build output
+cache/
+artifacts/
+typechain-types/
+
+# Environment variables and secrets
+.env
+.env.local
+
+# Logs
+*.log
+npm-debug.log*
+
+# Editor and OS files
+.DS_Store
+.vscode/
